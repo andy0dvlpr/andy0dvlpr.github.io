@@ -2,7 +2,7 @@
 layout: post
 title: "VMware Tools installation fails on Windows 2000"
 date: 2023-12-02 14:25:00 +0200
-categories: windows2000 vmware update dll
+categories: fix
 ---
 
 Installing VMware Tools on [Windows 2000](https://winworldpc.com/product/windows-nt-2000/final) isn't very straightforward.
