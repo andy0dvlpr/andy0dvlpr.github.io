@@ -64,4 +64,15 @@ h1 {
 .nav-img {
   width: 36px;
   height: 36px;
+}
+
+.home-heading-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.home-heading-img {
+  width: 38px;
+  height: 38px;
+  padding-right: 5px;
 }/*# sourceMappingURL=main.css.map */

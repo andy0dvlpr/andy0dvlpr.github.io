@@ -2,3 +2,9 @@
   text-decoration: none;
   color: $color;
 }
+
+// Center text with image within wrapper.
+@mixin wrapper-img-center {
+  display: flex;
+  align-items: center;
+}

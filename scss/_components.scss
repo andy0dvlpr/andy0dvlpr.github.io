@@ -15,9 +15,7 @@
 
 .nav-link {
   @include hide-hyperlink;
-  // Center text with image.
-  display: flex;
-  align-items: center;
+  @include wrapper-img-center;
   padding-left: $nav-bar-padding;
   padding-right: $nav-bar-padding;
 }
@@ -25,4 +23,14 @@
 .nav-img {
   width: $nav-img-size;
   height: $nav-img-size;
+}
+
+.home-heading-wrapper {
+  @include wrapper-img-center;
+}
+
+.home-heading-img {
+  width: $home-heading-img-size;
+  height: $home-heading-img-size;
+  padding-right: 5px;
 }
