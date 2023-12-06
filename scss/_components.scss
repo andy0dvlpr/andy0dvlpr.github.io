@@ -1,0 +1,28 @@
+// For small components (buttons, texts, etc.) that appear in different configurations.
+
+.site-title {
+  font-family: $xp-title;
+  text-shadow: 1px 1px 2px black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  @include hide-hyperlink;
+
+  position: absolute;
+  left: 10px;
+  bottom: 2px;
+}
+
+.nav-link {
+  @include hide-hyperlink;
+  // Center text with image.
+  display: flex;
+  align-items: center;
+  padding-left: $nav-bar-padding;
+  padding-right: $nav-bar-padding;
+}
+
+.nav-img {
+  width: $nav-img-size;
+  height: $nav-img-size;
+}

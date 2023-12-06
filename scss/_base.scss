@@ -1,0 +1,42 @@
+body {
+  background-color: $page-bg-color;
+  font-family: $default-font;
+}
+
+header {
+  height: 100px;
+  background-color: $xp-light-blue;
+  position: relative; // Needed so that the title text can float to the bottom.
+  // Most browsers have a default HTML body margin of 8px.
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+nav {
+  float: right;
+  padding-right: 20px;
+  line-height: 130px;
+  display: flex;  /* This is a "floated" element, thus display: inline won't work,
+                     and the default for the nav element is display:block       */
+  
+}
+
+main {
+  margin: auto;
+  box-shadow: inset -2px 0px #0831d9, inset 2px -2px #0831d9,
+              inset -3px 0px #166aee, inset 3px -3px #166aee, 
+              inset -4px 0px #0855dd, inset 4px -4px #855dd0;
+  //Round top edges:
+  //border-top-left-radius: 8px;
+  //border-top-right-radius: 8px;
+  padding: 6px 15px;
+}
+// If screen is bigger than main-width, make the main content width main-width.
+@media (min-width: $main-width) {main {
+  width: $main-width;
+}}
+
+h1 {
+  font-size: 35px;
+}

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Nanum Gothic";
+  src: url(/fonts/Nanum_Gothic/NanumGothic-Regular.ttf);
+}
+body {
+  background-color: white;
+  font-family: Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 100px;
+  background-color: #5a7edc;
+  position: relative;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+nav {
+  float: right;
+  padding-right: 20px;
+  line-height: 130px;
+  display: flex; /* This is a "floated" element, thus display: inline won't work,
+   and the default for the nav element is display:block       */
+}
+
+main {
+  margin: auto;
+  box-shadow: inset -2px 0px #0831d9, inset 2px -2px #0831d9, inset -3px 0px #166aee, inset 3px -3px #166aee, inset -4px 0px #0855dd, inset 4px -4px #855dd0;
+  padding: 6px 15px;
+}
+
+@media (min-width: 1000px) {
+  main {
+    width: 1000px;
+  }
+}
+h1 {
+  font-size: 35px;
+}
+
+.site-title {
+  font-family: Arial, sans-serif;
+  text-shadow: 1px 1px 2px black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  left: 10px;
+  bottom: 2px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.nav-img {
+  width: 36px;
+  height: 36px;
+}/*# sourceMappingURL=main.css.map */
